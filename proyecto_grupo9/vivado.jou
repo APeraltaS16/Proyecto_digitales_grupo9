@@ -1,16 +1,17 @@
 #-----------------------------------------------------------
-# Vivado v2022.1.2 (64-bit)
-# SW Build 3605665 on Fri Aug  5 22:53:37 MDT 2022
-# IP Build 3603185 on Sat Aug  6 04:07:44 MDT 2022
-# Start of session at: Wed Nov 30 21:52:22 2022
-# Process ID: 6120
-# Current directory: C:/Users/alons/Desktop/puc/2022-2/sistemas_digitales/proyecto_grupo9/Proyecto_digitales_grupo9/proyecto_grupo9
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11812 C:\Users\alons\Desktop\puc\2022-2\sistemas_digitales\proyecto_grupo9\Proyecto_digitales_grupo9\proyecto_grupo9\proyecto_grupo9.xpr
-# Log file: C:/Users/alons/Desktop/puc/2022-2/sistemas_digitales/proyecto_grupo9/Proyecto_digitales_grupo9/proyecto_grupo9/vivado.log
-# Journal file: C:/Users/alons/Desktop/puc/2022-2/sistemas_digitales/proyecto_grupo9/Proyecto_digitales_grupo9/proyecto_grupo9\vivado.jou
-# Running On: vic_aperalts, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 6, Host memory: 16800 MB
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Wed Nov 30 22:17:34 2022
+# Process ID: 12284
+# Current directory: C:/Users/felip/OneDrive/Desktop/New folder/Proyecto_digitales_grupo9/proyecto_grupo9
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent19488 C:\Users\felip\OneDrive\Desktop\New folder\Proyecto_digitales_grupo9\proyecto_grupo9\proyecto_grupo9.xpr
+# Log file: C:/Users/felip/OneDrive/Desktop/New folder/Proyecto_digitales_grupo9/proyecto_grupo9/vivado.log
+# Journal file: C:/Users/felip/OneDrive/Desktop/New folder/Proyecto_digitales_grupo9/proyecto_grupo9\vivado.jou
+# Running On: DESKTOP-7HFQM4I, OS: Windows, CPU Frequency: 1996 MHz, CPU Physical cores: 8, Host memory: 7469 MB
 #-----------------------------------------------------------
 start_gui
+
 open_project C:/Users/alons/Desktop/puc/2022-2/sistemas_digitales/proyecto_grupo9/Proyecto_digitales_grupo9/proyecto_grupo9/proyecto_grupo9.xpr
 update_compile_order -fileset sources_1
 close [ open C:/Users/alons/Desktop/puc/2022-2/sistemas_digitales/proyecto_grupo9/Proyecto_digitales_grupo9/proyecto_grupo9/proyecto_grupo9.srcs/sources_1/new/MUX_Reg.v w ]
