@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1.2 (64-bit)
+# SW Build 3605665 on Fri Aug  5 22:53:37 MDT 2022
+# IP Build 3603185 on Sat Aug  6 04:07:44 MDT 2022
+# Start of session at: Wed Nov 30 23:45:33 2022
+# Process ID: 18216
+# Current directory: C:/Users/alons/Desktop/puc/2022-2/sistemas_digitales/proyecto_grupo9/Proyecto_digitales_grupo9/proyecto_grupo9/proyecto_grupo9.runs/dist_mem_gen_0_synth_1
+# Command line: vivado.exe -log dist_mem_gen_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source dist_mem_gen_0.tcl
+# Log file: C:/Users/alons/Desktop/puc/2022-2/sistemas_digitales/proyecto_grupo9/Proyecto_digitales_grupo9/proyecto_grupo9/proyecto_grupo9.runs/dist_mem_gen_0_synth_1/dist_mem_gen_0.vds
+# Journal file: C:/Users/alons/Desktop/puc/2022-2/sistemas_digitales/proyecto_grupo9/Proyecto_digitales_grupo9/proyecto_grupo9/proyecto_grupo9.runs/dist_mem_gen_0_synth_1\vivado.jou
+# Running On: vic_aperalts, OS: Windows, CPU Frequency: 2688 MHz, CPU Physical cores: 6, Host memory: 16800 MB
+#-----------------------------------------------------------
+source dist_mem_gen_0.tcl -notrace
