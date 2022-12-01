@@ -38,13 +38,13 @@ module Function_Unit(
     
     
     always @(*) begin
-        
+        /////////////////////////////////
         // Flags
-        if(F_ALU < 0) begin
+        if(F_ALU[7]==1'b1) begin
             Z <= 1'b0;
             N <= 1'b1;
         end
-        else if(F_ALU == 0) begin
+        else if(F_ALU == 8'b00000000) begin
             Z <= 1'b1;
             N <= 1'b0;
         end
