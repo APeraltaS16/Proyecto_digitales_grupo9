@@ -70,6 +70,7 @@ INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/alons/Desktop/puc
 INFO: [Project 1-1877] Auto incremental dir location 'C:/Users/alons/Desktop/puc/2022-2/sistemas_digitales/proyecto_grupo9/Proyecto_digitales_grupo9/proyecto_grupo9/proyecto_grupo9.srcs/utils_1/imports/impl_1' of run 'impl_1' is not writable, setting it to default location 'C:/Users/felip/OneDrive/Desktop/New folder/Proyecto_digitales_grupo9/proyecto_grupo9/proyecto_grupo9.srcs/utils_1/imports/impl_1'.
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
+
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2022.1/data/ip'.
 open_project: Time (s): cpu = 00:01:10 ; elapsed = 00:00:31 . Memory (MB): peak = 1222.289 ; gain = 0.000
 update_compile_order -fileset sources_1
@@ -100,3 +101,4 @@ export_ip_user_files -of_objects  [get_files {{C:/Users/felip/OneDrive/Desktop/N
 remove_files  -fileset sim_1 {{C:/Users/felip/OneDrive/Desktop/New folder/Proyecto_digitales_grupo9/proyecto_grupo9/proyecto_grupo9.srcs/sim_1/new/Control_Unit_tb.v}}
 file delete -force {C:/Users/felip/OneDrive/Desktop/New folder/Proyecto_digitales_grupo9/proyecto_grupo9/proyecto_grupo9.srcs/sim_1/new/Control_Unit_tb.v}
 set_property SOURCE_SET sources_1 [get_filesets sim_1]
+
