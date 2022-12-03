@@ -12,6 +12,7 @@
 #-----------------------------------------------------------
 start_gui
 
+
 open_project C:/Users/alons/Desktop/puc/2022-2/sistemas_digitales/proyecto_grupo9/Proyecto_digitales_grupo9/proyecto_grupo9/proyecto_grupo9.xpr
 update_compile_order -fileset sources_1
 close [ open C:/Users/alons/Desktop/puc/2022-2/sistemas_digitales/proyecto_grupo9/Proyecto_digitales_grupo9/proyecto_grupo9/proyecto_grupo9.srcs/sources_1/new/MUX_Reg.v w ]

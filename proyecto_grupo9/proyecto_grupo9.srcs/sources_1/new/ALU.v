@@ -27,6 +27,8 @@ module ALU(
     output reg  [7:0] F
     );
     
+    wire [7:0] F_inter;
+    
     always @(*) begin
         case(G)
             // F = A
@@ -36,32 +38,34 @@ module ALU(
             //////////////////////
             // F = A + 1
             4'b0001: begin
-                F <= A + 1'b1;
+                sumador_ocho_bits(A, 8'b00000001, 1'b0, F);
             end
             //////////////////////
             // F = A + B
             4'b0010: begin
-                F <= A + B;
+                sumador_ocho_bits(A, B, 1'b0, F);
             end
             //////////////////////
             // F = A + B + 1
             4'b0011: begin
-                F <= A + B + 1'b1;
+                sumador_ocho_bits(A, B, 1'b0, F_inter);
+                sumador_ocho_bits(F_inter, 8'b00000001, 1'b0, F);
             end
             //////////////////////
             // F = A + ~B
             4'b0100: begin
-                F <= A + (~B);
+                sumador_ocho_bits(A, ~B, 1'b0, F);
             end
             //////////////////////
             // F = A + ~B + 1
             4'b0101: begin
-                F <= A + (~B) + 1'b1;
+                sumador_ocho_bits(A, ~B, 1'b0, F_inter);
+                sumador_ocho_bits(F_inter, 8'b00000001, 1'b0, F);
             end
             //////////////////////
             // F = A - 1
             4'b0110: begin
-                F <= A - 1'b1; 
+                sumador_ocho_bits(A, 8'b00000001, 1'b1, F);
             end
             //////////////////////
             // F = A
